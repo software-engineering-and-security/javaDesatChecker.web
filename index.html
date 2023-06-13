@@ -1,9 +1,86 @@
- <!DOCTYPE html>
- <html>
- <body>
-
- <h1>Hi</h1>
- <p>Links to tables here</p>
-
- </body>
- </html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RCE Tables Repository</title>
+</head>
+<body>
+	<h1>RCE Tables Repository</h1>
+	<p>This site hosts a number of tables representing the presence of remote code execution vulnerabilities in Java deserialization when combining versions of the Java Virtual Machine and versions of libraries. Each table corresponds to a payload of the research tool <a href=https://github.com/frohoff/ysoserial>ysoserial</a>, which can be utilized to detect these vulnerabilities. As such, the libraries tested for each payload are the libraries included in each ysoserial attack, though there are a couple that don't use any libraries at all.</p>
+		
+	<p>For each table, the rows represent a version of the JVM (218 in total), and the columns represent a version of a library. If the combination of these two led to the presence of an RCE vulnerability during deserialization, the cell will be colored red. If not, the cell will be colored green.</p>
+		
+	<br>
+	<h2>1. <a href="Tables/BeanShell1">BeanShell1</a></h2>
+	<p>Libraries included: BeanShell.</p>
+	<br>
+	<h2>2. <a href="Tables/Click1">Click1</a></h2>
+	<p>Libraries included: Click Nodeps, Javax Servlet API.</p>
+	<br>
+	<h2>3. <a href="Tables/Clojure">Clojure</a></h2>
+	<p>Libraries included: Clojure.</p>
+	<br>
+	<h2>4. <a href="Tables/CommonsBeanutils1">CommonsBeanutils1</a></h2>
+	<p>Libraries included: Commons BeanUtils, Commons Collections, Commons Logging.</p>
+	<br>
+	<h2>5. <a href="Tables/CommonsCollections1">CommonsCollections1</a></h2>
+	<p>Libraries included: Commons Collections.</p>
+	<br>
+	<h2>6. <a href="Tables/CommonsCollections2">CommonsCollections2</a></h2>
+	<p>Libraries included: Commons Collections 4.</p>
+	<br>
+	<h2>7. <a href="Tables/CommonsCollections3">CommonsCollections3</a></h2>
+	<p>Libraries included: Commons Collections.</p>
+	<br>
+	<h2>8. <a href="Tables/CommonsCollections4">CommonsCollections4</a></h2>
+	<p>Libraries included: Commons Collections 4.</p>
+	<br>
+	<h2>9. <a href="Tables/CommonsCollections5">CommonsCollections5</a></h2>
+	<p>Libraries included: Commons Collections.</p>
+	<br>
+	<h2>10. <a href="Tables/CommonsCollections6">CommonsCollections6</a></h2>
+	<p>Libraries included: Commons Collections.</p>
+	<br>
+	<h2>11. <a href="Tables/CommonsCollections7">CommonsCollections7</a></h2>
+	<p>Libraries included: Commons Collections.</p>
+	<br>
+	<h2>12. <a href="Tables/Groovy1">Groovy1</a></h2>
+	<p>Libraries included: Groovy.</p>
+	<br>
+	<h2>13. <a href="Tables/Hibernate1">Hibernate1</a></h2>
+	<p>Libraries included: None.</p>
+	<br>
+	<h2>14. <a href="Tables/Hibernate2">Hibernate2</a></h2>
+	<p>Libraries included: None.</p>
+	<br>
+	<h2>15. <a href="Tables/JRMPClient">JRMPClient</a></h2>
+	<p>Libraries included: None.</p>
+	<br>
+	<h2>16. <a href="Tables/JSON1">JSON1</a></h2>
+	<p>Libraries included: Json-Lib, Spring AOP, AOP Alliance, Commons Logging, Commons Lang, Ezmorph, Commons BeanUtils, Spring Core, Commons Collections.</p>
+	<br>
+	<h2>17. <a href="Tables/Jdk7u21">Jdk7u21</a></h2>
+	<p>Libraries included: None.</p>
+	<br>
+	<h2>18. <a href="Tables/MozillaRhino1">MozillaRhino1</a></h2>
+	<p>Libraries included: Rhino.</p>
+	<br>
+	<h2>19. <a href="Tables/MozillaRhino2">MozillaRhino2</a></h2>
+	<p>Libraries included: Rhino.</p>
+	<br>
+	<h2>20. <a href="Tables/Myfaces1">Myfaces1</a></h2>
+	<p>Libraries included: None.</p>
+	<br>
+	<h2>21. <a href="Tables/ROME">ROME</a></h2>
+	<p>Libraries included: Rome.</p>
+	<br>
+	<h2>22. <a href="Tables/Spring1">Spring1</a></h2>
+	<p>Libraries included: Spring Core, Spring Beans.</p>
+	<br>
+	<h2>23. <a href="Tables/Spring2">Spring2</a></h2>
+	<p>Libraries included: Spring Core, Spring AOP, AOP Alliance, Commons Logging.</p>
+	<br>
+	<h2>24. <a href="Tables/Vaadin1">Vaadin1</a></h2>
+	<p>Libraries included: Vaadin Server, Vaadin Shared.</p>
+	<br>
+</body>
+</html>
